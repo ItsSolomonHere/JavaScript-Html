@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation</title>
+    <style>
+        /* Adding some CSS for the initial layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .content {
+            background-color: #ffbea0;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .new-element {
+            color: rgb(2, 184, 2);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DOM Manipulation Example</h1>
+        <p>Click the button to change content, modify styles, and add/remove an element.</p>
+    </header>
+
+    <div class="content">
+        <h2 id="main-title">Original Title</h2>
+        <p id="main-text">This is some static content that will change when you click the button.</p>
+    </div>
+
+    <button id="changeButton">Click Me!</button>
+
+    <section id="newElementContainer"></section>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
